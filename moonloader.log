@@ -1,0 +1,54 @@
+[19:13:02.480274] (system)	Session started.
+[19:13:02.480274] (debug)	Module handle: 584E0000
+
+MoonLoader v.026.5-beta loaded.
+Developers: FYP, hnnssy, EvgeN 1137
+
+Copyright (c) 2016, BlastHack Team
+http://blast.hk/moonloader/
+
+[19:13:02.480274] (info)	Working directory: C:\Users\pc\AppData\Local\Programs\Arizona Games Launcher\bin\arizona\moonloader
+[19:13:02.480274] (debug)	FP Control: 0109001F
+[19:13:02.480274] (debug)	Game: GTA SA 1.0.0.0 US
+[19:13:02.480274] (system)	Installing pre-game hooks...
+[19:13:02.486495] (system)	Hooks installed.
+[19:13:32.810047] (debug)	Initializing opcode handler table
+[19:13:32.810047] (debug)	package.path = C:\Users\pc\AppData\Local\Programs\Arizona Games Launcher\bin\arizona\moonloader\lib\?.lua;C:\Users\pc\AppData\Local\Programs\Arizona Games Launcher\bin\arizona\moonloader\lib\?\init.lua;C:\Users\pc\AppData\Local\Programs\Arizona Games Launcher\bin\arizona\moonloader\?.lua;C:\Users\pc\AppData\Local\Programs\Arizona Games Launcher\bin\arizona\moonloader\?\init.lua;.\?.lua;C:\Users\pc\AppData\Local\Programs\Arizona Games Launcher\bin\arizona\moonloader\lib\?.luac;C:\Users\pc\AppData\Local\Programs\Arizona Games Launcher\bin\arizona\moonloader\lib\?\init.luac;C:\Users\pc\AppData\Local\Programs\Arizona Games Launcher\bin\arizona\moonloader\?.luac;C:\Users\pc\AppData\Local\Programs\Arizona Games Launcher\bin\arizona\moonloader\?\init.luac;.\?.luac
+[19:13:32.810047] (debug)	package.cpath = C:\Users\pc\AppData\Local\Programs\Arizona Games Launcher\bin\arizona\moonloader\lib\?.dll;
+[19:13:33.323207] (system)	Loading script 'C:\Users\pc\AppData\Local\Programs\Arizona Games Launcher\bin\arizona\moonloader\AutoReboot.lua'...
+[19:13:33.323207] (debug)	New script: 067C2F4C
+[19:13:33.330755] (system)	ML-AutoReboot: Loaded successfully.
+[19:13:33.330755] (system)	Loading script 'C:\Users\pc\AppData\Local\Programs\Arizona Games Launcher\bin\arizona\moonloader\keyboard.lua'...
+[19:13:33.330755] (debug)	New script: 256C9BFC
+[19:13:33.986429] (system)	Keyboard & Mouse: Loaded successfully.
+[19:13:33.987428] (system)	Loading script 'C:\Users\pc\AppData\Local\Programs\Arizona Games Launcher\bin\arizona\moonloader\Mimgui_ScoreBoard.lua'...
+[19:13:33.987428] (debug)	New script: 256CA6B4
+[19:13:34.613328] (system)	Mimgui Scoreboard [by MTG MODS]: Loaded successfully.
+[19:13:34.614258] (system)	Loading script 'C:\Users\pc\AppData\Local\Programs\Arizona Games Launcher\bin\arizona\moonloader\reload_all.lua'...
+[19:13:34.614258] (debug)	New script: 256CA21C
+[19:13:34.689194] (system)	ML-ReloadAll: Loaded successfully.
+[19:13:34.689194] (system)	Loading script 'C:\Users\pc\AppData\Local\Programs\Arizona Games Launcher\bin\arizona\moonloader\Server Time by Kalashnikov.lua'...
+[19:13:34.689194] (debug)	New script: 256CA094
+[19:13:34.818481] (system)	Server Time by Kalashnikov.lua: Loaded successfully.
+[19:13:34.818481] (system)	Loading script 'C:\Users\pc\AppData\Local\Programs\Arizona Games Launcher\bin\arizona\moonloader\SF Integration.lua'...
+[19:13:34.818481] (debug)	New script: 256CA3A4
+[19:13:34.876196] (system)	SF Integration: Loaded successfully.
+[19:13:34.876196] (system)	Loading script 'C:\Users\pc\AppData\Local\Programs\Arizona Games Launcher\bin\arizona\moonloader\UltraFuck 2.36.luac'...
+[19:13:34.876196] (debug)	New script: 256CA83C
+[19:13:34.983005] (system)	UltraFuck: Loaded successfully.
+[19:14:20.663649] (system)	Installing post-load hooks...
+[19:14:20.664785] (system)	Hooks installed.
+[19:21:20.863630] (system)	Unloading...
+[19:21:20.863630] (system)	ML-AutoReboot: Script terminated. (067C2F4C)
+[19:21:20.872190] (error)	Keyboard & Mouse: ...izona Games Launcher\bin\arizona\moonloader\keyboard.lua:1320: bad argument #1 to 'ColorConvertFloat4ToU32' (cannot convert 'nil' to 'struct ImVec4')
+stack traceback:
+	[C]: in function 'ColorConvertFloat4ToU32'
+	...izona Games Launcher\bin\arizona\moonloader\keyboard.lua:1320: in function 'iniSave'
+	...izona Games Launcher\bin\arizona\moonloader\keyboard.lua:1377: in function <...izona Games Launcher\bin\arizona\moonloader\keyboard.lua:1377>
+[19:21:20.872190] (error)	Keyboard & Mouse: Script died due to an error. (256C9BFC)
+[19:21:20.875238] (system)	Mimgui Scoreboard [by MTG MODS]: Script terminated. (256CA6B4)
+[19:21:20.877853] (system)	ML-ReloadAll: Script terminated. (256CA21C)
+[19:21:20.878854] (system)	Server Time by Kalashnikov.lua: Script terminated. (256CA094)
+[19:21:20.879847] (system)	SF Integration: Script terminated. (256CA3A4)
+[19:21:20.879847] (system)	UltraFuck: Script terminated. (256CA83C)
+[19:21:21.030515] (system)	Session terminated.
